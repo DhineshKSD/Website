@@ -6,7 +6,7 @@
     width:50px;
     height: 50px;
 }
-.academics
+.Academics
 {
     position: relative;
     top:8%;
@@ -19,7 +19,7 @@
     border-radius: 0.9375em;
     text-align: justify;
 }
-.academics h1
+.Academics h1
 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size: 2em;
@@ -35,7 +35,7 @@
     font-size:0.95em;
     text-align: justify;
 }
-.ac{
+.AcademicsContent{
     position: relative;
     top:0;
     left:40%;
@@ -44,7 +44,7 @@
     border-radius: 50%;
 }
 @media only screen and (max-width: 57em) {
-    .academics
+    .Academics
     {
     position: relative;
     left:30%;
@@ -54,13 +54,13 @@
     height:65%;
     font-size: 0.85em;
     }
-    .ac{
+    .AcademicsContent{
     width:28%;
     left:35%;
     }
 }
 @media only screen and (max-width: 42em) {
-    .academics{
+    .Academics{
     position: relative;
     padding-right: 1em;
     background-color: rgba(223, 185, 137, 0.7);
