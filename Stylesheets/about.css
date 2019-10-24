@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
-.logo{
+.logo
+{
     position: fixed;
     top:7px;
     left:8px;
@@ -27,21 +28,25 @@
     color:saddlebrown;
     position: relative;
 }
-#a{
+#a
+{
     position: relative;
     top:1%;
     font-family: 'Merienda', cursive;
     font-size:1em;
 }
-.am{
+.am
+{
     position: relative;
     left:40%;
     width:20%;
     height:auto;
     border-radius: 50%;
 }
-@media only screen and (max-width: 57em) {
-    .aboutme{
+@media only screen and (max-width: 57em) 
+{
+    .aboutme
+    {
     position: relative;
     left:30%;
     padding: 1em;
@@ -54,7 +59,8 @@
     left:34%;
     }
 }
-@media only screen and (max-width: 42em) {
+@media only screen and (max-width: 42em) 
+{
     .aboutme
     {
     position: relative;
