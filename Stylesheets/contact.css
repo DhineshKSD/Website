@@ -7,7 +7,7 @@
     width:50px;
     height: 50px;
 }
-.contact-form
+.ContactForm
 {
     width: 50%;
     height: 60%;
@@ -21,21 +21,21 @@
     text-align: center;
     font-family: 'Merienda', cursive;
 }
-.contact-form h1
+.ContactForm h1
 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     color: saddlebrown;
     margin-top: 0;
     font-size: 1.5em;
 }
-.txtb
+.txt
 {
     border:1px solid saddlebrown;
     margin: 3px 0;
     padding: 1px 20px;
     border-radius: 8px;
 }
-.txtb label
+.txt label
 {
     display: block;
     text-align: left;
@@ -44,7 +44,7 @@
     font-size: 0.68em;
     font-weight: bold;
 }
-.txtb input,.txtb textarea
+.txt input,.txt textarea
 {
     width: 45em;
     height:1.5em;
@@ -70,7 +70,7 @@
 }
 @media only screen and (max-width: 57em) 
 {
-  .contact-form
+  .ContactForm
   {
       width: 50%;
       height: 60%;
@@ -87,7 +87,8 @@
 }
 @media only screen and (max-width: 42em) 
 {
-  .txtb input,.txtb textarea{
+  .txt input,.txt textarea
+  {
   font-size: 0.75em;
   }
 }
