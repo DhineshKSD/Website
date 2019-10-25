@@ -49,8 +49,12 @@
 }
 ul
 { 
+    position: relative;
     font-size: 1.3em;
     color:black;
+    left:15%;
+    top:3%;
+    padding-right: 20%;
 }
 @media only screen and (max-width: 57em) 
 {
@@ -71,7 +75,10 @@ ul
     }
     ul
     { 
+    position: relative;
     font-size: 1.2em;
+    left:5%;
+    padding-right: 10%;
     }
 }
 @media only screen and (max-width: 42em) 
@@ -87,6 +94,8 @@ ul
     }
     ul
     { 
+    position: relative;
     font-size: 1.1em;
+    left:1%;
     }
 }
