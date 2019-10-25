@@ -28,14 +28,14 @@
     color:saddlebrown;
     position: relative;
 }
-#a
+#AboutmeContent
 {
     position: relative;
     top:1%;
     font-family: 'Merienda', cursive;
     font-size:1em;
 }
-.AboutContent
+.AboutmeImage
 {
     position: relative;
     left:40%;
@@ -54,7 +54,8 @@
     height:65%;
     font-size: 0.85em;
     }
-    .AboutContent{
+    .AboutmeImage
+    {
     width:30%;
     left:34%;
     }
