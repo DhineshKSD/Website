@@ -29,7 +29,8 @@
     position: relative;
     top:0em;
 }
-.ex{
+.ex
+{
     position: relative;
     top:0;
     left:20%;
@@ -37,7 +38,8 @@
     height:auto;
     border-radius: 5%;
 }
-.art{
+.art
+{
     position: relative;
     top:0;
     left:20%;
@@ -45,11 +47,13 @@
     height:auto;
     border-radius: 5%;
 }
-ul{ 
+ul
+{ 
     font-size: 1.3em;
     color:black;
 }
-@media only screen and (max-width: 57em) {
+@media only screen and (max-width: 57em) 
+{
     .extracurricular
     {
     position: relative;
@@ -60,15 +64,18 @@ ul{
     height:65%;
     font-size: 0.85em;
     }
-    .ex,.art{
+    .ex,.art
+    {
     width:40%;
     left:10%;
     }
-    ul{ 
+    ul
+    { 
     font-size: 1.2em;
     }
 }
-@media only screen and (max-width: 42em) {
+@media only screen and (max-width: 42em) 
+{
     .extracurricular
     {
     position: relative;
@@ -78,7 +85,8 @@ ul{
     height:65%;
     font-size: 0.75em;
     }
-    ul{ 
+    ul
+    { 
     font-size: 1.1em;
     }
 }
