@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
-.logo{
+.Logo{
     position: fixed;
     top:7px;
     left:8px;
     width:50px;
     height: 50px;
 }
-.extracurricular
+.ExtraCurricular
 {
     position: relative;
     top:8%;
@@ -20,7 +20,7 @@
     font-size: 0.95em;
     font-family: 'Merienda', cursive;
 }
-.extracurricular h1
+.ExtraCurricular h1
 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size: 2em;
@@ -29,7 +29,7 @@
     position: relative;
     top:0em;
 }
-.ex
+.Ex
 {
     position: relative;
     top:0;
@@ -38,7 +38,7 @@
     height:auto;
     border-radius: 5%;
 }
-.art
+.Art
 {
     position: relative;
     top:0;
@@ -58,7 +58,7 @@ ul
 }
 @media only screen and (max-width: 57em) 
 {
-    .extracurricular
+    .ExtraCurricular
     {
     position: relative;
     top:8%;
@@ -68,7 +68,7 @@ ul
     height:65%;
     font-size: 0.85em;
     }
-    .ex,.art
+    .Ex,.Art
     {
     width:40%;
     left:10%;
@@ -83,7 +83,7 @@ ul
 }
 @media only screen and (max-width: 42em) 
 {
-    .extracurricular
+    .ExtraCurricular
     {
     position: relative;
     right:5%;
