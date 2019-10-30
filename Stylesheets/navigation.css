@@ -11,7 +11,7 @@ body
     overflow-x: hidden;
     overflow-y: hidden;
 }
-.navigate
+.Navigate
 {
     border-bottom: 0.15em solid white;
     text-align: right;
@@ -19,11 +19,11 @@ body
     color: aliceblue;
     line-height: 4em;
 }
-.menu
+.Menu
 {
     margin: 0 2em 0 0;  
 }
-.menu a
+.Menu a
 {
     text-decoration:none;
     color: white;
@@ -41,21 +41,21 @@ label
     line-height: 4.375em;
     display: none;
 }
-#toggle 
+#Toggle 
 {
     display: none;
 }
-.menu a:hover
+.Menu a:hover
 {
    background-color:olive;
    color: black;  
 }
-.menu a#onlink
+.Menu a#Onlink
 {
    background-color: olive;
    color: black; 
 }
-.menu a#onlink:hover
+.Menu a#Onlink:hover
 {
    background-color: olive;
    color: black; 
@@ -67,7 +67,7 @@ label
         display: block;
         cursor: pointer;
     }
-    .menu 
+    .Menu 
     {
         text-align: center;
         color: white;
@@ -75,12 +75,12 @@ label
         display: none;
         margin-top: 0.1em;
     }
-    .menu a 
+    .Menu a 
     {
         display: block;
         margin: 0em; 
     }
-    #toggle:checked + .menu 
+    #Toggle:checked + .Menu 
     {
         display: block;
     }
@@ -92,16 +92,16 @@ label
         display: block;
         cursor: pointer;
     }
-    .navigate
+    .Navigate
     {
         height: 4.375em;
         line-height: 3.125em;
     }
-    .menu 
+    .Menu 
     {
         margin-top: 0.5em;
     }
-    .menu a 
+    .Menu a 
     {
         display: block;
         margin: 0;
@@ -109,7 +109,7 @@ label
         font-family: sans-serif;
         font-weight:bold;
     }
-    #toggle:checked + .menu 
+    #Toggle:checked + .Menu 
     {
         display: block;
     }
