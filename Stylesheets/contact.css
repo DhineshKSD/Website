@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
-.logo
+.Logo
 {
     position: fixed;
     top:7px;
@@ -28,14 +28,14 @@
     margin-top: 0;
     font-size: 2em;
 }
-.txt
+.Txt
 {
     border:1px solid rgb(75, 53, 22);
     margin: 3px 0;
     padding: 1px 20px;
     border-radius: 8px;
 }
-.txt label
+.Txt label
 {
     display: block;
     text-align: left;
@@ -44,7 +44,7 @@
     font-size: 0.68em;
     font-weight: bold;
 }
-.txt input,.txt textarea
+.Txt input,.Txt textarea
 {
     width: 45em;
     height:1.5em;
@@ -59,7 +59,7 @@
     right:4%;
     font-size: 1em;
 }
-.btn
+.Btn
 {
     display: inline-block;
     background-color: rgb(124, 124, 15);
@@ -73,7 +73,7 @@
     height: auto;
     border-radius: 5px;
 }
-.btn:hover{
+.Btn:hover{
     background-color:rgb(66, 50, 28);
     color:whitesmoke;
 }
@@ -96,7 +96,7 @@
 }
 @media only screen and (max-width: 42em) 
 {
-  .txt input,.txt textarea
+  .Txt input,.Txt textarea
   {
   font-size: 0.75em;
   }
