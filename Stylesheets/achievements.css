@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
-.logo
+.Logo
 {
     position: fixed;
     top:7px;
@@ -7,7 +7,7 @@
     width:50px;
     height: 50px;
 }
-.achievements
+.Achievements
 {
     position: relative;
     top:8%;
@@ -20,7 +20,7 @@
     border-radius: 0.95em;
     font-family: 'Merienda', cursive;
 }
-.achievements h1
+.Achievements h1
 {
     font-family:"Comic Sans MS", cursive, sans-serif;
     font-size: 2em;
@@ -29,7 +29,7 @@
     position: relative;
     top:0;
 }
-.content1
+.Content1
 {
     position: relative;
     bottom:10px;
@@ -48,7 +48,7 @@ ul
 }
 @media only screen and (max-width: 57em) 
 {
-    .achievements
+    .Achievements
     {
     position: relative;
     left:30%;
@@ -66,7 +66,7 @@ ul
 }
 @media only screen and (max-width: 42em) 
 {
-    .achievements
+    .Achievements
     {
     position: relative;
     right:5%;
