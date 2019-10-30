@@ -1,4 +1,4 @@
-.logo
+.Logo
 {
     position: fixed;
     top:7px;
@@ -15,7 +15,7 @@ h1
     position: relative;
     top:15px;
 }
-#slideshow 
+#SlideShow 
 { 
     margin: 50px auto; 
     position: relative; 
@@ -27,7 +27,7 @@ h1
     box-shadow: 0 0 20px rgba(248, 178, 73, 0.411); 
     overflow: hidden;
 }
-#slideshow > div 
+#SlideShow > div 
 { 
     position: relative; 
     top: 10px; 
@@ -37,7 +37,7 @@ h1
 }
 @media only screen and (max-width: 57em) 
 {
-    #slideshow 
+    #SlideShow 
     { 
     margin: 50px auto; 
     position: relative; 
@@ -47,7 +47,7 @@ h1
     box-shadow: 0 0 20px rgba(248, 178, 73, 0.411); 
     overflow: hidden; 
     }
-    #slideshow > div 
+    #SlideShow > div 
     { 
     position: relative; 
     top: 10px; 
@@ -58,7 +58,7 @@ h1
 }
 @media only screen and (max-width: 42em) 
 {
-    #slideshow 
+    #SlideShow 
     { 
     margin: 50px auto; 
     position: relative; 
@@ -69,7 +69,7 @@ h1
     box-shadow: 0 0 20px rgba(248, 178, 73, 0.411); 
     overflow: hidden; 
     }
-    #slideshow > div 
+    #SlideShow > div 
     { 
     position: relative; 
     top: 5px; 
