@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 body
 {
     margin: 0;
@@ -29,8 +30,8 @@ body
     color: white;
     margin:0 1em;
     line-height: 4.375em;
-    font-size: 0.9375em;
-    font-family: Verdana;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
     font-weight:bold;
     transition: 0.1s;
 }
@@ -47,17 +48,17 @@ label
 }
 .Menu a:hover
 {
-   background-color:olive;
-   color: black;  
+   background-color:#64991e;
+   color: black; 
 }
 .Menu a#Onlink
 {
-   background-color: olive;
-   color: black; 
+   background-color: #64991e;
+   color:whitesmoke; 
 }
 .Menu a#Onlink:hover
 {
-   background-color: olive;
+   background-color:  #64991e;
    color: black; 
 }
 @media only screen and (max-width: 57em) 
@@ -78,6 +79,7 @@ label
     .Menu a 
     {
         display: block;
+        font-size: 0.9em;
         margin: 0em; 
     }
     #Toggle:checked + .Menu 
@@ -94,18 +96,18 @@ label
     }
     .Navigate
     {
-        height: 4.375em;
+        height: 4em;
         line-height: 3.125em;
     }
     .Menu 
     {
-        margin-top: 0.5em;
+        margin-top: 0.1em;
     }
     .Menu a 
     {
         display: block;
         margin: 0;
-        font-size: 0.6em;
+        font-size: 0.8em;
         font-family: sans-serif;
         font-weight:bold;
     }
