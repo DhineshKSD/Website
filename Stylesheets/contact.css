@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .Logo
 {
     position: fixed;
@@ -14,26 +15,29 @@
     max-width: 50em;
     background-color: rgba(223, 185, 137, 0.75);
     position: relative;
-    top: 10%;
+    top: 8%;
     left: 22%;
     padding: 2em;
     border-radius: 0.9375em;
     text-align: center;
-    font-family: 'Merienda', cursive;
+    font-family: 'Open Sans', sans-serif;
 }
 .ContactForm h1
 {
     font-family:"Comic Sans MS", cursive, sans-serif;
+    position: relative;
     color: rgb(87, 53, 30);
-    margin-top: 0;
+    bottom: 10%;
     font-size: 2em;
 }
 .Txt
 {
+    position: relative;
     border:1px solid rgb(75, 53, 22);
     margin: 3px 0;
     padding: 1px 20px;
     border-radius: 8px;
+    bottom: 11%;
 }
 .Txt label
 {
@@ -41,7 +45,7 @@
     text-align: left;
     color:black;
     text-transform: uppercase;
-    font-size: 0.68em;
+    font-size: 0.7em;
     font-weight: bold;
 }
 .Txt input,.Txt textarea
@@ -61,17 +65,19 @@
 }
 .Btn
 {
+    position: relative;
     display: inline-block;
     background-color: rgb(124, 124, 15);
+    border:solid 1px whitesmoke;
     padding: 1px 0;
     color:black;
     font-weight: bold;
     text-transform: uppercase;
     cursor: pointer;
-    margin-top: 0.5em;
-    width: 30%;
+    width: 20%;
     height: auto;
-    border-radius: 5px;
+    border-radius: 8px;
+    bottom: 1.85em;
 }
 .Btn:hover{
     background-color:rgb(66, 50, 28);
@@ -91,7 +97,7 @@
       padding: 2em;
       border-radius: 0.9375em;
       text-align: center;
-      font-family: 'Merienda', cursive;
+      font-family: 'Open Sans', sans-serif;
   }
 }
 @media only screen and (max-width: 42em) 
