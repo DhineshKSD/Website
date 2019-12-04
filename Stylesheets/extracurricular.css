@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .Logo{
     position: fixed;
     top:7px;
@@ -14,11 +15,11 @@
     padding: 1em;
     background-color: rgba(223, 185, 137, 0.7);
     width:60%;
-    height:70%;
+    height:65%;
     opacity: 1;    
     border-radius: 0.9375em;
-    font-size: 0.95em;
-    font-family: 'Merienda', cursive;
+    font-size: 0.85em;
+    font-family: 'Open Sans', sans-serif;
 }
 .ExtraCurricular h1
 {
@@ -33,7 +34,7 @@
 {
     position: relative;
     top:0;
-    left:20%;
+    left:19%;
     width:30%;
     height:auto;
     border-radius: 5%;
@@ -42,7 +43,7 @@
 {
     position: relative;
     top:0;
-    left:20%;
+    left:21%;
     width:30%;
     height:auto;
     border-radius: 5%;
@@ -52,9 +53,10 @@ ul
     position: relative;
     font-size: 1.3em;
     color:black;
-    left:15%;
-    top:3%;
-    padding-right: 20%;
+    left:19%;
+    top:3.5%;
+    text-align: justify;
+    padding-right: 41%;
 }
 @media only screen and (max-width: 57em) 
 {
@@ -78,7 +80,7 @@ ul
     position: relative;
     font-size: 1.2em;
     left:5%;
-    padding-right: 10%;
+    padding-right: 15%;
     }
 }
 @media only screen and (max-width: 42em) 
