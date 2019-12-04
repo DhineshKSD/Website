@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Merienda&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
 .Logo
 {
     position: fixed;
@@ -15,7 +16,7 @@
     padding: 1em;
     background-color: rgba(223, 185, 137, 0.7);
     width:60%;
-    height:70%;
+    height:65%;
     opacity: 1;    
     border-radius: 0.95em;
     text-align: justify;
@@ -32,8 +33,9 @@
 {
     position: relative;
     top:1%;
-    font-family: 'Merienda', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-size:1em;
+    text-align: justify;
 }
 .AboutmeImage
 {
